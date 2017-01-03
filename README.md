@@ -18,3 +18,11 @@ $ ./auto_pod ~/your/project/path
 ### dock\_handler
 
 `dock_handler` is actually **not a executable shell script**, it's a bunch of commands with which you can custom your dock, such as change count of icons per column or per row, show only open apps in dock, etc.
+
+### lazygit
+
+`lazygit` is used to commit git changes in one line.
+
+```
+$ ./lazygit ~/git/path "some commits"
+```

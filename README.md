@@ -26,3 +26,11 @@ $ ./auto_pod ~/your/project/path
 ```
 $ ./lazygit ~/git/path "some commits"
 ```
+
+### rename
+
+`rename` is used to rename file from `A***` to `***A`.
+
+```
+$ ./rename ~/path/to/files
+```

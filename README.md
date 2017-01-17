@@ -3,7 +3,7 @@ This repository is used to store some useful bash scripts. Written by myself or 
 
 # Description & Usage
 
-### auto\_pod
+### auto_pod
 
 `auto_pod` is used to create `Podfile` at given Xcode project path.
 
@@ -11,11 +11,11 @@ This repository is used to store some useful bash scripts. Written by myself or 
 $ ./auto_pod ~/your/project/path
 ```
 
-### clear\_node
+### clear_node
 
 `clear_node` is used to delete node in your computer completely.
 
-### dock\_handler
+### dock_handler
 
 `dock_handler` is actually **not a executable shell script**, it's a bunch of commands with which you can custom your dock, such as change count of icons per column or per row, show only open apps in dock, etc.
 
@@ -35,6 +35,10 @@ $ ./lazygit ~/git/path "some commits"
 $ ./rename ~/path/to/files
 ```
 
-### englishpod\_handler
+### englishpod_handler
 
 `englishpod_hander` is used for personal use to extract pure text, which can be imported by Numbers, from some .html files. I know it's fairly ugly for now. Better improvement will be made later on. So, tolerate my bad code temperarily, please. :P
+
+### jenkins_build
+
+`jenkins_build` is used for jenkins configuration for iOS project to build. A library named [xcode_shell](https://github.com/webfrogs/xcode_shell) is required in advance.

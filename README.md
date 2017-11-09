@@ -42,3 +42,7 @@ $ ./rename ~/path/to/files
 ### jenkins_build
 
 `jenkins_build` is used for jenkins configuration for iOS project to build. A library named [xcode_shell](https://github.com/webfrogs/xcode_shell) is required in advance.
+
+### convert_image
+
+`convert_image` is used for converting horizonal image to a vertical image used in color cube filter, which actually can be completed with a few minutes in Swift by converting image to data and vice versa. So sad. :( 
